@@ -21,3 +21,4 @@ urlpatterns = [
     path('watched', views.get_watched, name='get_watched'),  # Исправлено на getWatched
     path('watched/check/<str:route>/<int:id>', views.check_if_watched, name='check_if_watched'),  # Исправлено на checkIfWatched
 ]
+
